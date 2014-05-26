@@ -1,5 +1,10 @@
 # HEAD
 
+### Bug fixes
+
+* Warn when `ensure_inclusion_of` is chained with `.in_array [false, true]`
+  as well as with `.in_array [true, false]`.
+
 ### Improvements
 
 * `have_and_belongs_to_many` now checks to make sure that the join table
